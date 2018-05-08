@@ -4,13 +4,11 @@ Step 1: Download and install the latest node.js versions 8.11.1 (https://nodejs.
 
 Step 2: Download a file of this project. 
 
-Step 3: Extact the src.zip in same folder. 
+Step 3: Make sure the package.json will be replaced by this package.json. 
 
-Step 4: Make sure the package.json will be replaced by this package.json. 
+Step 4: Downloaded folder path to go in common window then run the common npm install. 
 
-Step 5: Downloaded folder path to go in common window then run the common npm install. 
-
-Step 6: Run in same path ng serve.
+Step 5: Run in same path ng serve.
 
 # Pizza
 
