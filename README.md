@@ -6,7 +6,7 @@ Step 2: Download a file of this project.
 
 Step 3: Make sure the package.json will be replaced by this package.json. 
 
-Step 4: Downloaded folder path to go in common window then run the common npm install. 
+Step 4: Downloaded folder path to go in command prompt then run the command prompt npm install. 
 
 Step 5: Run in same path ng serve.
 
