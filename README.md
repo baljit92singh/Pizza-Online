@@ -1,3 +1,12 @@
+# Follow this steps
+
+Step 1: Download and install the latest node.js versions 8.11.1 (https://nodejs.org/en/).
+Step 2: Download a file of this project.
+Step 3: Extact the src.zip in same folder.
+Step 4: Make sure the package.json will be replaced by this package.json.
+Step 5: Downloaded folder path to go in common window then run the common npm install.
+Step 6: Run in same path ng serve. 
+
 # Pizza
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
