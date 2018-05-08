@@ -1,0 +1,36 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-card>
+  <mat-card-subtitle>
+    <div style="text-align:center">
+      <h1>
+        Welcome to {{ title }}
+      </h1>
+    </div>
+    <mat-list>
+      <mat-list-item *ngFor="let tile of detailsdata" style="height:auto;padding-bottom:10px;text-align:center;">
+        <div mat-line>
+          <hr>
+          <img src={{tile.imgSrc}} style="height: 150px;width: 150px;">
+          <br>
+          <span>
+            <b>{{tile.title}}</b>
+          </span>&nbsp;--
+          <span>
+            <b>{{tile.amount | currency:'INR':'symbol' }}</b>
+          </span>
+          <span>
+            <b>
+              (Discount - {{tile.discount}})
+            </b>
+          </span>
+        </div>
+        <p mat-line style="white-space: normal !important">{{tile.description | titlecase}}
+          <br>
+          <br>
+          <button mat-raised-button color="warn" (click)="openDialog(tile)"> Order Now
+          </button>
+        </p>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-subtitle>
+</mat-card>

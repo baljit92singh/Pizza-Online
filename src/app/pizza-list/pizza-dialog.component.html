@@ -1,0 +1,23 @@
+<h2 mat-dialog-title>Fill the details</h2>
+<mat-dialog-content>
+    <form [formGroup]="basicDetailsForm">
+        <mat-form-field>
+            <input matInput type="text" placeholder="Name" formControlName="name" required>
+        </mat-form-field>&nbsp;
+        <mat-form-field>
+            <input matInput type="tel" pattern="[0-9]*" placeholder="Contact #" formControlName="contactNumber" minlength="10" maxlength="10"
+                required>
+            <span matPrefix>+91-</span>
+        </mat-form-field>&nbsp;
+        <mat-form-field>
+            <input matInput type="email" placeholder="Email Id" formControlName="email">
+        </mat-form-field>&nbsp;
+        <mat-form-field>
+            <input matInput type="text" placeholder="Address" formControlName="address" required>
+        </mat-form-field>
+    </form>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button color="primary" [disabled]="basicDetailsForm.invalid" (click)="orderNowFinal()">CONFIRM NOW</button>
+    <button mat-button color="warn" (click)="closeDialog()">CLOSE</button>
+</mat-dialog-actions>

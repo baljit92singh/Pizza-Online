@@ -1,0 +1,67 @@
+{
+    "response": [
+        {
+            "title": "5 PEPPER",
+            "amount": 299,
+            "description": "Dominos introduces 5 Peppers an exotic new Pizza. Topped wih red bell pepper, yellow bell pepper, capsicum, red paprika, jalapeno & sprinked with exotic herb",
+            "imgSrc": "assets/pizza/5_Pepper.jpg",
+            "discount": "10%"
+        },
+        {
+            "title": "CHEESE N CORN",
+            "amount": 399,
+            "description": "Cheese I Golden Corn",
+            "imgSrc": "assets/pizza/Corn_&_Cheese.jpg",
+            "discount": "15%"
+        },
+        {
+            "title": "DELUXE VEGGIE",
+            "amount": 499,
+            "description": "For a vegetarian looking for a BIG treat that goes easy on the spices, this ones got it all.. The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.",
+            "imgSrc": "assets/pizza/Deluxe_Veggie.jpg",
+            "discount": "20%"
+        },
+        {
+            "title": "VEGGIE PARADISE",
+            "amount": 299,
+            "description": "Paneer and Capsicum on Makhani Sauce",
+            "imgSrc": "assets/pizza/Digital_Veggie_Paradise_olo_266x265.jpg",
+            "discount": "10%"
+        },
+        {
+            "title": "DOUBLE CHEESE MARGHERITA",
+            "amount": 499,
+            "description": "The ever-popular Margherita - loaded with extra cheese... oodies of it!",
+            "imgSrc": "assets/pizza/Double_Cheese_Margherita.jpg",
+            "discount": "15%"
+        },
+        {
+            "title": "FARM HOUSE",
+            "amount": 299,
+            "description": "A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes",
+            "imgSrc": "assets/pizza/Farmhouse.jpg",
+            "discount": "15%"
+        },
+        {
+            "title": "FRESH VEGGIE",
+            "amount": 399,
+            "description": "Onion I Capsicum",
+            "imgSrc": "assets/pizza/Fresh_Veggie.jpg",
+            "discount": "10%"
+        },
+        {
+            "title": "MEXICAN GREEN WAVE",
+            "amount": 299,
+            "description": "A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.",
+            "imgSrc": "assets/pizza/Mexican_Green_Wave.jpg",
+            "discount": "5%"
+        },
+        {
+            "title": "PANEER MAKHANI",
+            "amount": 499,
+            "description": "Paneer and Capsicum on Makhani Sauce",
+            "imgSrc": "assets/pizza/Paneer_Makhni.jpg",
+            "discount": "15%"
+        }
+    ]
+}
